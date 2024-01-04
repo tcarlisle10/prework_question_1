@@ -1,11 +1,11 @@
 def first_odds():
     """Count odd numbers to 100"""
-    current_number = 0 
-    while current_number < 100:
-        current_number += 1
-        if current_number % 2 == 0:
+    odd_numbers = 0 
+    while odd_numbers < 100:
+        odd_numbers += 1
+        if odd_numbers % 2 == 0:
             continue
 
-        print(current_number)
+        print(odd_numbers)
     
 first_odds()

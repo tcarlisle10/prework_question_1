@@ -1,0 +1,1 @@
+def is_consecutive(a_list):
